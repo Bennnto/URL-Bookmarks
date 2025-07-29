@@ -50,4 +50,12 @@ input[type="url"] {
     background-color: #160af3;
     }
 
+#bookmark {
+    display : flex;
+    flex-direction: column;
+    padding : 10px 10px ;
+    font-weight: bold;
+    margin : auto;
+    width: 50%;
+}
 
