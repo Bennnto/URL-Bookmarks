@@ -1,0 +1,53 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "MesloLGS Nerd Font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1, h2 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.url {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type="url"] {
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+}
+
+.button {;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 6px;
+    width: fit-content;
+    }
+
+.buttons:hover {
+    background-color: #160af3;
+    }
+
+
